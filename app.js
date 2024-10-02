@@ -52,6 +52,8 @@ function calcularIMC() {
             alert('Seu IMC está no nível OBESIDADE I, é preocupante!');
         } else if (IMC > 34.9 && IMC < 40) {
             alert('Seu IMC está no nível OBESIDADE II, é bem preocupante!');
+        } else if (IMC < 18.5) {
+            alert('Seu IMC está no nível MAGREZA, é preocupante!');
         } else {
             alert('Seu IMC está no nível OBESIDADE III, é extremamente preocupante!');
         }
